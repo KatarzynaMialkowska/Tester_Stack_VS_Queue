@@ -41,28 +41,28 @@ make test
 Additionally, it compares the output files of the programs.
 
 *First stage*
-- We generate a random number of times operations and random commands
+- Generate a random number of times operations and random commands
 - compare stack.x with std::stack:
 make test_stack_1
 - compare queue.x with std::queue:
 make test_quene_1
 
 *Second stage*
-- We generate the operation given in the argument n times and random commands
+- Generate the operation given in the argument n times and random commands
 - compare stack.x with std::stack by comparing the time:
 make test_stack_2
 - compare queue.x with std::queue:
 make test_quene_2
 
 *Third stage*
-- We generate the push operation specified in the argument 1000001 times
+- Generate the push operation specified in the argument 1000001 times
 - compare stack.x with std::stack by comparing the time
 make test_stack_3
 - compare queue.x with std::queue
 make test_quene_3
 
 *Fourth stage*
-- We generate a random number of pop operations
+- Generate a random number of pop operations
 - compare stack.x with std::stack by comparing the time:
 make test_stack_4
 - compare queue.x with std::queue:
